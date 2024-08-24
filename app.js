@@ -1,7 +1,7 @@
 const carousel = document.getElementById('carousel');
 const items = document.querySelectorAll('.carousel-item');
 const angleStep = 360 / items.length;
-const radius = 300;
+const radius = 550;
 let isPaused = false;
 let expandedItem = null;
 
